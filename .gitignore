@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+
+# Editors
+.idea/
+.vscode/
+
+# Local caches
+.cache/
+.tmp/
+tmp/
